@@ -1,0 +1,7 @@
+[Unit]
+Description=Door Bell Service
+
+[Service]
+ExecStart="/usr/bin/python /home/innay/bell-commander/main.py
+User=innay
+
